@@ -1,0 +1,23 @@
+<mat-card class="attraction-card">
+
+
+
+  <mat-card-content>
+    <div class="attraction-table" i18n>
+      <div class="attraction-header">
+        <span>Nom de l'attraction</span>
+        <span>Description de l'attraction</span>
+        <span>Difficulté de l'attraction / 5</span>
+      </div>
+      <ng-container *ngFor="let attraction of attractions | async;">
+        <div class="attraction-row" *ngIf="attraction.visible">
+           <span>
+            <a [routerLink]="['/critiques', attraction.attraction_id]">{{attraction.nom}}</a>
+          </span>
+          <span>{{attraction.description}}</span>
+          <span>{{attraction.difficulte}} / 5</span>
+        </div>
+      </ng-container>
+    </div>
+  </mat-card-content>
+</mat-card>

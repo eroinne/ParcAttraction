@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="9112633654982659978" datatype="html">
+        <source>Bienvenue sur le site internet du parc d&apos;attraction</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/accueil/accueil.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="333414571658679353" datatype="html">
+        <source><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;attraction-header&quot;&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Nom de l&apos;attraction<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Description de l&apos;attraction<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Difficulté de l&apos;attraction / 5<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Ajouter une critique<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_NG_CONTAINER" ctype="x-ng_container" equiv-text="&lt;ng-container *ngFor=&quot;let attraction of attractions | async;&quot;&gt;"/><x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;attraction-row&quot; *ngIf=&quot;attraction.visible&quot;&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;[&apos;/critiques&apos;, attraction.attraction_id]&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{attraction.nom}}"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION_1" equiv-text="{{attraction.description}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION_2" equiv-text="{{attraction.difficulte}}"/> / 5<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button mat-raised-button color=&quot;primary&quot; (click)=&quot;ouvrirModal(attraction.nom, attraction.attraction_id ?? 0)&quot;&gt;"/> Ajouter une critique <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_NG_CONTAINER" ctype="x-ng_container" equiv-text="&lt;/ng-container&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/accueil/accueil.component.html</context>
+          <context context-type="linenumber">7,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8001634891960256073" datatype="html">
+        <source>Page administrateur pour <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button mat-button (click)=&quot;addAttraction()&quot;&gt;"/>Ajouter<x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>, modifier et supprimer des attractions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/admin.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3416485823535414220" datatype="html">
+        <source>Nom de l&apos;attraction</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/admin.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7287191990850185862" datatype="html">
+        <source>Description de l&apos;attraction</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/admin.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1102715820658871489" datatype="html">
+        <source>Difficulté de l&apos;attraction / 5</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/admin.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3712758505200425308" datatype="html">
+        <source>Visible</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/admin.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5363451304863092478" datatype="html">
+        <source>Nom</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/admin.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4902817035128594900" datatype="html">
+        <source>Description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/admin.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1490236106293192741" datatype="html">
+        <source>Difficulté / 5</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/admin.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1725119487503534238" datatype="html">
+        <source>Element visible</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/admin.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4977912145007192180" datatype="html">
+        <source>Enregistrer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/admin.component.html</context>
+          <context context-type="linenumber">37,38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ajout-critique/ajout-critique.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2891318612780409162" datatype="html">
+        <source> Le nom est obligatoire. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ajout-critique/ajout-critique.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4455973163893352692" datatype="html">
+        <source> La note doit être un chiffre entre 1 et 5 (ex:3.4). </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ajout-critique/ajout-critique.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5734559744861065401" datatype="html">
+        <source> La critique ne doit pas dépasser 500 caractères. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ajout-critique/ajout-critique.component.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1711750570766225138" datatype="html">
+        <source>Annuler</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ajout-critique/ajout-critique.component.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6187391662882677657" datatype="html">
+        <source>Parc d&apos;attraction</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="154984213326282857" datatype="html">
+        <source>Critiques</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5041354590769758251" datatype="html">
+        <source>Admin</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6446192435648820310" datatype="html">
+        <source>Déconnexion</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5207154043723142879" datatype="html">
+        <source>Liste des critiques</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-critiques/liste-critiques.component.html</context>
+          <context context-type="linenumber">2,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7551002979022540900" datatype="html">
+        <source>Note : <x id="INTERPOLATION" equiv-text="{{ critique.note }}"/>/5</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-critiques/liste-critiques.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8538638472238576115" datatype="html">
+        <source>Connexion à la page administrateur</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5249891717669571568" datatype="html">
+        <source>Mot de passe</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6103118278620987967" datatype="html">
+        <source>Connexion</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

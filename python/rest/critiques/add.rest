@@ -1,0 +1,11 @@
+POST http://127.0.0.1:5000/critiques HTTP/1.1
+Content-Type: application/json
+
+{
+  "attraction_id": 1,
+  "nom": "test6aaaaaaaaaaaaaaaaaaaaa",
+  "prenom": "test",
+  "texte": "très très bon parc",
+  "note": 3.5
+}
+

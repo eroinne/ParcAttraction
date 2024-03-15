@@ -1,0 +1,11 @@
+<h1 class="centered-title" i18n>Liste des critiques</h1>
+
+
+<div *ngFor="let critique of critiques" class="critique-card">
+  <h3>Attraction : {{ critique.attraction_nom }}</h3>
+  <p>Note : {{ critique.note }}/5</p>
+  <p>Critique :</p>
+  <p>{{ critique.texte }}</p>
+  <p>Ecrit par : {{ critique.nom }} {{ critique.prenom || 'Anonyme' }}</p>
+
+</div>
